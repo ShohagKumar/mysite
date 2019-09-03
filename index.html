@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Shohag Kumar - Developer</title>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/img/logo.png">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- VENDORS FILES -->
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="vendors/css/grid.css">
+    <link rel="stylesheet" href="vendors/css/aos.css">
+    <link rel="stylesheet" href="vendors/css/animated-circle.css">
+    <link rel="stylesheet" href="vendors/css/lightbox.min.css">
+    <!-- RESOURCES FILES -->
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/responsive.css">
+</head>
+<body>
+  
+  <!--START HEADER SECTION-->
+  <header>
+      <div class="top-view" id="home">
+          <p>
+              <span><i class="fas fa-envelope"></i>shohagkumar6@gamil.com</span> 
+              <span><i class="fas fa-mobile-alt"></i>01909686355</span>
+          </p>
+      </div>
+      <nav>
+          <div class="row">
+          <a href="#home">
+          <img src="resources/img/my-logo.png" alt="logo" class="logo">
+          </a>
+          <ul class="main-nav">
+              <li><a href="#home">home</a></li>
+              <li><a href="#about">about</a></li>
+              <li><a href="#skill">skill</a></li>
+              <li><a href="#portfolio">portfolio</a></li>
+              <li><a href="#contact">contact</a></li>
+          </ul>
+          
+          <div class="mobile-menu">
+              <span onclick="openNav()">&#9776;</span>
+              <div id="myNav" class="overlay">
+                    <a href="javascript:void()" onclick="closeNav()"
+                    class="closebtn">&times;</a>
+                    <div class="overlay-content">
+                          <a onclick="closeNav()" href="#home">home</a>
+                          <a onclick="closeNav()" href="#about">about </a>
+                          <a onclick="closeNav()" href="#skill">skill</a>
+                          <a onclick="closeNav()" href="#portfolio">portfolio</a>
+                          <a onclick="closeNav()" href="#contact">contact</a>
+                    </div>
+              </div>
+
+          </div>
+      </div>
+      </nav>
+      <div class="row">
+          <div class="hero-text-box">
+              <h1>Hi, I am a <span class="type"></span></h1>
+              
+          </div>
+          <div class="new hero-text-box">
+              <a href="#contact" class="btn btn-hero">work with me!</a>
+          </div>
+      </div>
+  </header>
+  <!--END HEADER SECTION-->
+  
+  <!--START ABOUT SECTION-->
+      <section class="about-section js--about-section" id="about">
+          <div class="row">
+              <h2>ABOUT MYSELF</h2>
+              <div class="row">
+                  <div class="col span_1_of_2 box" data-aos="fade-right" data-aos-duration="2000">
+                     <div class="project">
+	                        <div class="project__card">
+		                           <img src="resources/img/my.jpg" alt="mypic" class="my-icon" >
+	                        </div>
+                     </div>
+                      
+                    <div class="social-link">
+                    <ul>
+                        <li><a href="https://www.facebook.com/bestboy.badhon?ref=bookmarks" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://twitter.com/bhowmik_shohag" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/shohag-kumar-405842180/" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://www.instagram.com/shohag_kumar_bhowmik/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                       
+                    </ul>
+                   </div>
+                </div>
+                  <div class="col span_1_of_2 box des" data-aos="fade-left" data-aos-duration="2000">
+                      <p><strong>I am shohag kumar bhowmik.</strong> <br> I completed my graduation in computer science and engineering (CSE) I love to work hard. Client satisfaction is my first choice. I like to build a good working relationship with you by my Expertise, Honesty, Sincerity and Hard Working. And Provide works in timely and very accurately. <br> <br>I have vast konwladge about design & development. I am working more than two year in web development. Besides that I am also experienced in server administration such windows server and linux server as well as cloud management in amazon web service (AWS) As I woking on Django for web development so I know python pretty well. For that reason I am also learn the machine learning. And I did different type of projects in these fields. Some screenshots are given in my portfolio.</p>
+                      
+                  </div>
+              </div>
+          </div>
+      </section>
+  
+  <!--END ABOUT SECTION-->
+  
+ <!--START SKILL SECTION-->
+        <section class="skill-section" id="skill">
+                <div class="row">
+                    <h2>MY SKILLS!</h2>
+                </div>
+                <div class="row">
+                    <div class="col span_1_of_4 box">
+                        <svg class="radial-progress web-design" data-percentage="75" viewBox="0 0 80 80">
+                              <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                              <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                              <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">75%</text>
+                        </svg>
+                        <h3>Web Design</h3>
+                    </div>
+                    <div class="col span_1_of_4 box">
+                        <svg class="radial-progress web-development" data-percentage="87" viewBox="0 0 80 80">
+                              <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                              <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                              <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">87%</text>
+                        </svg>
+                        <h3>Web Development - Django</h3>
+                    </div>
+                    <div class="col span_1_of_4 box">
+                        <svg class="radial-progress server" data-percentage="85" viewBox="0 0 80 80">
+                              <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                              <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                              <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">85%</text>
+                        </svg>
+                        <h3>Server Administrator and cloud management</h3>
+                    </div>
+                    <div class="col span_1_of_4 box">
+                        <svg class="radial-progress machine-learning" data-percentage="70" viewBox="0 0 80 80">
+                              <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                              <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                              <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">70%</text>
+                        </svg>
+                        <h3>Machine Learning</h3>
+                    </div>
+                </div>
+        </section>
+ <!--END SKILL SECTION-->
+  
+<!--START PORTFOLIO SECTION-->
+            <section class="portfolio-section" id="portfolio">
+                <div class="row">
+                    <h2>MY PORTFOLIO</h2>
+                    <p class="little-description">This is my privious works.</p>
+                </div>
+                <div class="row">
+                   <div class="portfolio-filter">
+                        <button type="button" data-filter="all">all</button>
+                        <button type="button" data-filter=".web">web design</button>
+                        <button type="button" data-filter=".dev">web development</button>
+                        <button type="button" data-filter=".server">sever and cloud</button>
+                        <button type="button" data-filter=".mac">machine learning</button>
+                   </div>
+                </div>
+                <div class="row container">
+                   <div class="col mix span_1_of_4 box web">
+                        <a href="resources/img/portfolio/portfolio1.PNG"  data-lightbox="work-image" data-title="web design"><img src="resources/img/portfolio/min-portfolio1.png" alt="image" class="portfolio-image"></a>
+                        
+                    </div>
+                    <div class="col mix span_1_of_4 box web">
+                        <a href="resources/img/portfolio/portfolio2.PNG" data-lightbox="work-image" data-title="web design"><img src="resources/img/portfolio/min-portfolio2.png" alt="image" class="portfolio-image"></a>
+                    </div>
+                     <div class="col mix span_1_of_4 box web">
+                        <a href="resources/img/portfolio/portfolio3.PNG" data-lightbox="work-image" data-title="web design"><img src="resources/img/portfolio/min-portfolio3.png" alt="image" class="portfolio-image"></a>
+                   
+                    </div>
+                     <div class="col mix span_1_of_4 box mac">
+                       <a href="resources/img/portfolio/portfolio4.PNG" data-lightbox="work-image" data-title="machine learning"><img src="resources/img/portfolio/min-portfolio4.png" alt="image" class="portfolio-image"></a>
+                        
+                    </div>
+                     <div class="col mix span_1_of_4 box web">
+                        <a href="resources/img/portfolio/portfolio5.PNG" data-lightbox="work-image" data-title="web design"><img src="resources/img/portfolio/min-portfolio5.png" alt="image" class="portfolio-image"></a>
+                        
+                    </div>
+                    <div class="col mix span_1_of_4 box web">
+                        <a href="resources/img/portfolio/portfolio6.PNG" data-lightbox="work-image" data-title="web design"><img src="resources/img/portfolio/min-portfolio6.png" alt="image" class="portfolio-image"></a>
+                        
+                    </div>
+                    <div class="col mix span_1_of_4 box server">
+                        <a href="resources/img/portfolio/portfolio7.PNG" data-lightbox="work-image" data-title="sever and cloud"><img src="resources/img/portfolio/min-portfolio7.png" alt="" class="portfolio-image"></a>
+                        
+                    </div>
+                    <div class="col mix span_1_of_4 box server">
+                       <a href="resources/img/portfolio/portfolio8.PNG" data-lightbox="work-image" data-title="sever and cloud"><img src="resources/img/portfolio/min-portfolio8.png" alt="" class="portfolio-image"></a>
+                        
+                    </div>
+                    <div class="col mix span_1_of_4 box server">
+                        <a href="resources/img/portfolio/portfolio9.PNG" data-lightbox="work-image" data-title="sever and cloud"><img src="resources/img/portfolio/min-portfolio9.png" alt="" class="portfolio-image"></a>
+                        
+                    </div>
+                    <div class="col mix span_1_of_4 box dev">
+                        <a href="resources/img/portfolio/portfolio10.PNG" data-lightbox="work-image" data-title=" web development"><img src="resources/img/portfolio/min-portfolio10.png" alt="image" class="portfolio-image"></a>
+                        
+                    </div>
+                    <div class="col mix span_1_of_4 box dev">
+                        <a href="resources/img/portfolio/portfolio11.PNG" data-lightbox="work-image" data-title=" web development"><img src="resources/img/portfolio/min-portfolio11.png" alt="image" class="portfolio-image"></a>
+                        
+                    </div>
+                    <div class="col mix span_1_of_4 box dev">
+                       <a href="resources/img/portfolio/portfolio12.PNG" data-lightbox="work-image" data-title=" web development"><img src="resources/img/portfolio/min-portfolio12.png" alt="image" class="portfolio-image"></a>
+                        
+                    </div>
+                    <div class="col mix span_1_of_4 box dev">
+                        <a href="resources/img/portfolio/portfolio13.PNG" data-lightbox="work-image" data-title=" web development"><img src="resources/img/portfolio/min-portfolio13.png" alt="image" class="portfolio-image"></a>
+                        
+                    </div>
+                    <div class="col mix span_1_of_4 box dev">
+                       <a href="resources/img/portfolio/portfolio14.PNG" data-lightbox="work-image" data-title=" web development"><img src="resources/img/portfolio/min-portfolio14.png" alt="image" class="portfolio-image"></a>
+                        
+                    </div>
+                    <div class="col mix span_1_of_4 box mac">
+                       <a href="resources/img/portfolio/portfolio15.PNG" data-lightbox="work-image" data-title="machine learning"><img src="resources/img/portfolio/min-portfolio15.png" alt="image" class="portfolio-image"></a>
+                        
+                    </div>
+                    <div class="col mix span_1_of_4 box mac">
+                        <a href="resources/img/portfolio/portfolio16.PNG" data-lightbox="work-image" data-title="machine learning"><img src="resources/img/portfolio/min-portfolio16.png" alt="image" class="portfolio-image"></a>
+                        
+                    </div>
+                    
+                    
+                </div>
+            </section>
+        
+        <!--END PORTFOLIO SECTION-->
+        
+<!--START CONTACT SECTION-->
+            <section class="contact-section" id="contact">
+                <div class="row">
+                    <h2>GET IN TOUCH</h2>
+                </div>
+                <div class="row">
+                    <form action="https://formspree.io/shohagkumar74@gmail.com" method="POST">
+                        <div class="row">
+                            <div class="col span_1_of_2">
+                                <input type="text" name="Name" placeholder="Your Name *" required>
+                            </div>
+                            <div class="col span_1_of_2">
+                                <input type="email" name="Email" placeholder="Your Email *" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <textarea name="Message" cols="30" rows="10" placeholder="Your Message *" required></textarea>
+                        </div>
+                        <div class="row">
+                            <input type="submit" value="SEND MESSAGE" class="btn btn-submit">
+                        </div>
+                    </form>
+                </div>
+            </section>
+        
+<!--END CONTACT SECTION-->
+ <!--START FOOTER SECTION-->
+            <footer class="footer-section">
+                <div class="row">
+                    <ul>
+                        <li><a href="https://www.facebook.com/bestboy.badhon?ref=bookmarks" target="_blank">Facebook </a></li>
+                        <li><a href="https://twitter.com/bhowmik_shohag" target="_blank">Twitter  </a></li>
+                        <li><a href="https://www.linkedin.com/in/shohag-kumar-405842180/" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://github.com/ShohagKumar" target="_blank">GitHub</a></li>
+                    </ul>
+                </div>
+            </footer>
+
+   
+   <!-- JS SCRIPTS -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="vendors/js/html5shiv.min.js"></script>
+   <script src="vendors/js/respond.min.js"></script>
+   <script src="vendors/js/selectivizr-min.js"></script>
+   <script src="vendors/js/jquery.waypoints.min.js"></script>
+   <!-- type animation start-->
+   <script src="vendors/js/typed.min.js"></script>
+   <script>
+     var typed = new Typed(".type", {
+        strings: ["Designer", "Developer"],
+        typeSpeed: 60,
+        backSpeed: 60,
+        loop: true
+        });
+    </script>
+    <!-- type animation end-->
+    
+    <!-- scroll animation start-->
+    <script src="vendors/js/aos.js"></script>
+    <script>
+         AOS.init();
+    </script>
+    <!-- scroll animation end-->
+    
+    <!--hover3d start-->
+    <script src="vendors/js/jquery.hover3d.min.js"></script>
+    <script>
+        $(".project").hover3d({
+	           selector: ".project__card"
+            });
+    </script>
+    <!--hover3d end-->
+    
+    <script src="vendors/js/animated-circle.js"></script>
+    <script src="vendors/js/mixitup.min.js"></script>
+    <script src="vendors/js/lightbox.min.js"></script>
+    
+   <script src="resources/js/main.js"></script>
+   
+    
+</body>
+</html>
